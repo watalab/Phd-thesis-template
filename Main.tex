@@ -24,12 +24,19 @@
 \subfile{guide.tex}
 
 \subfile{introduction.tex}
-\printbibliography[title=参考文献]
+\clearpage
+%\printbibliography[title=参考文献]
+\printbibliography[title={第{\thechapter}章の参考文献},heading=subbibintoc]
 
 \subfile{solution.tex}
-\printbibliography[title=参考文献]
+\clearpage
+%\printbibliography[title=参考文献]
+\printbibliography[title={第{\thechapter}章の参考文献},heading=subbibintoc]
 
 \subfile{result.tex}
+\clearpage
+\printbibliography[title={第{\thechapter}章の参考文献},heading=subbibintoc]
+
 \include{conclusion}
 
 \section*{謝辞}

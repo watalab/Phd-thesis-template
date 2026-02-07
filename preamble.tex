@@ -1,5 +1,6 @@
 %% biblatex
-\usepackage[style=phys, biblabel=brackets, backend=biber, refsection=chapter]{biblatex}
+\usepackage[style=phys, biblabel=brackets, backend=biber, refsection=chapter,
+backref=true, sorting=none, giveninits=true, maxnames=6, date=year]{biblatex}
 %\usepackage[style=phys, biblabel=brackets, backend=biber,]{biblatex}
 \addbibresource{mybib.bib}
 %% biblatex
@@ -115,10 +116,13 @@ urlcolor=blue, citecolor=blue]{hyperref}
 \begin{titlepage}
  \null \vskip3em% ページ上部の空白t
  \begin{center}
-  {\Large 福井大学大学院工学研究科\\総合創成工学専攻原子力・エネルギー安全工学分野\\博士学位論文} \vskip5em
-  {\huge 過酷事故時の原子炉内挙動評価手法の\\高度化に関する研究} \vskip20em
+  {\huge 博士学位論文} \vskip 2em
+
+  {\huge 過酷事故時の原子炉内挙動評価手法の\\高度化に関する研究} \vskip 25em
   {\Large 2025年2月} \vskip1.5em
-  {\Large 学籍番号XX  　　XX　XX} \vskip1.5em
+  
+  {\Large 福井大学大学院工学研究科\\総合創成工学専攻原子力・エネルギー安全工学分野} \vskip 2em
+  {\huge XX　XX} 
   %   {\LARGE  } \vskip2em
  \end{center}%
 \end{titlepage}}
